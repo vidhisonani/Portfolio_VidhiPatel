@@ -501,6 +501,9 @@ footer {
   .contact-container > p {
     font-size: 0.9em;
   }
+  .info p > span > i {
+    vertical-align: bottom;
+  }
   .timeline::before {
     left: 20px;
   }
@@ -544,6 +547,9 @@ footer {
   }
   .contact-container > p {
     font-size: 0.9em;
+  }
+  .info p > span > i {
+    vertical-align: bottom;
   }
   .timeline::before {
     left: 20px;
