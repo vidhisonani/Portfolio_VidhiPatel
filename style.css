@@ -181,7 +181,7 @@ section h2 {
   object-fit: cover;
 }
 .about-text {
-  flex: 2 1 600px;
+  flex: 1 1 600px;
   font-size: 1.1rem;
   line-height: 1.8;
   color: var(--text-dark);
@@ -195,11 +195,6 @@ section h2 {
   margin: 20px auto;
   padding: 40px;
   max-width: 1000px;
-}
-.skill-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 10px;
 }
 .skill-card {
   display: flex;
@@ -276,7 +271,7 @@ section h2 {
   height: 16px;
   background: var(--secondary);
   border-radius: 50%;
-  z-index: 1;
+  z-index: 10;
 }
 .timeline-component-bg {
   background: var(--bg-light);
@@ -320,11 +315,6 @@ section h2 {
   font-size: 1rem;
   margin-bottom: 10px;
   color: var(--text-light);
-}
-.project-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 10px;
 }
 .project-card {
   display: flex;
@@ -424,6 +414,9 @@ section h2 {
   color: var(--text-light);
   text-align: center;
   margin: 5px;
+}
+.info p > span > i {
+  vertical-align: bottom;
 }
 footer {
   background: var(--primary);
