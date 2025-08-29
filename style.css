@@ -416,7 +416,7 @@ section h2 {
   margin: 5px;
 }
 .info p > span > i {
-  vertical-align: bottom;
+  vertical-align:text-bottom;
 }
 footer {
   background: var(--primary);
@@ -501,9 +501,6 @@ footer {
   .contact-container > p {
     font-size: 0.9em;
   }
-  .info p > span > i {
-    vertical-align: bottom;
-  }
   .timeline::before {
     left: 20px;
   }
@@ -547,9 +544,6 @@ footer {
   }
   .contact-container > p {
     font-size: 0.9em;
-  }
-  .info p > span > i {
-    vertical-align: bottom;
   }
   .timeline::before {
     left: 20px;
