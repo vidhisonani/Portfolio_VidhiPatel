@@ -416,7 +416,7 @@ section h2 {
   margin: 5px;
 }
 .info p > span > i {
-  vertical-align:text-bottom;
+  vertical-align: bottom;
 }
 footer {
   background: var(--primary);
