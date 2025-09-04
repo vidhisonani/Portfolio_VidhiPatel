@@ -1,7 +1,7 @@
 const project1 = document.getElementById("project1");
 const project2 = document.getElementById("project2");
 const project3 = document.getElementById("project3");
-
+const project4 = document.getElementById("project4");
 project1.addEventListener("click", () => {
   this.open("https://github.com/vidhisonani/netflix_clone/", "_blank");
 });
