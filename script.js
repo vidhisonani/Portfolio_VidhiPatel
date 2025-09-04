@@ -13,3 +13,7 @@ project2.addEventListener("click", () => {
 project3.addEventListener("click", () => {
   this.open("https://github.com/vidhisonani/calculator/", "_blank");
 });
+
+project4.addEventListener("click", () => {
+  this.open("https://github.com/vidhisonani/digital_clock/", "_blank");
+});
