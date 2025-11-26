@@ -404,7 +404,9 @@ section h2 {
 .contact-container .info a {
   color: var(--text-dark);
   font-size: 1em;
+  display: block;
   text-decoration: none;
+  text-align: center;
 }
 .contact-container .info a:hover {
   color: var(--greyType);
