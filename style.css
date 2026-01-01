@@ -498,6 +498,7 @@ footer {
   .contact-container {
     height: 65vh;
     width: 100%;
+    margin: auto;
   }
   .contact-container .info a {
     font-size: 0.9em;
@@ -541,7 +542,7 @@ footer {
   }
   .contact-container {
     height: auto;
-    margin: 5px;
+    margin: auto;
   }
   .contact-container .info a {
     font-size: 0.9em;
