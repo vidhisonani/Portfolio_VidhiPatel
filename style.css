@@ -496,7 +496,7 @@ footer {
     height: 265px;
   }
   .contact-container {
-    height: 65vh;
+    height: auto;
     width: 100%;
     margin: auto;
   }
